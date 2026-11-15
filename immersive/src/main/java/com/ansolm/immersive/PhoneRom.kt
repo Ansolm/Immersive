@@ -1,10 +1,10 @@
-package com.iwdael.immersive
+package com.ansolm.immersive
 
 import android.app.Activity
 import android.content.Context
 import android.net.Uri
 import android.view.Gravity
-import com.iwdael.immersive.ext.getSystemComponentDimen
+import com.ansolm.immersive.ext.getSystemComponentDimen
 
 /**
  * @author 段泽全

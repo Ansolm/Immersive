@@ -1,25 +1,25 @@
-package com.iwdael.immersive.rom
+package com.ansolm.immersive.rom
 
 import android.app.Activity
 import android.os.Build
 import android.provider.Settings
 import androidx.annotation.RequiresApi
-import com.iwdael.immersive.Immersive.defaultPhoneRom
-import com.iwdael.immersive.PhoneRom
+import com.ansolm.immersive.Immersive.defaultPhoneRom
+import com.ansolm.immersive.PhoneRom
 
 /**
- * author : iwdael
- * e-mail : iwdael@outlook.com
+ * author : ansolm
+ * e-mail : ansolm@outlook.com
  * time   : 2019/8/5
  * desc   : 小米
  * version: 1.0
  */
-class NokiaPhoneRom : PhoneRom {
+class SmartisanPhoneRom : PhoneRom {
     companion object {
-        private const val CONTENT_KEY = ""
+        private const val CONTENT_KEY = "navigationbar_trigger_mode"
     }
 
-    override fun isCurrentPhoneRom(brand: String, product: String, model: String) = brand.contains("nokia")
+    override fun isCurrentPhoneRom(brand: String, product: String, model: String) = brand.contains("smartisan")
 
     @RequiresApi(Build.VERSION_CODES.KITKAT)
     override fun navigationBarExist(activity: Activity): Boolean {

@@ -1,4 +1,4 @@
-package com.iwdael.immersive
+package com.ansolm.immersive
 
 import android.app.Activity
 import android.content.Context

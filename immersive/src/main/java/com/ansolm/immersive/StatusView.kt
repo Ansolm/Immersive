@@ -1,4 +1,4 @@
-package com.iwdael.immersive
+package com.ansolm.immersive
 
 import android.app.Activity
 import android.content.Context
@@ -6,15 +6,21 @@ import android.os.Bundle
 import android.os.Parcelable
 import android.util.AttributeSet
 import android.view.View
-import com.iwdael.immersive.State.Companion.immersiveState
-import com.iwdael.immersive.ext.notifyLayoutParam
+import com.ansolm.immersive.ext.notifyLayoutParam
 
-class NavigationView @JvmOverloads constructor(
+/**
+ * author  : Ansolm
+ * e-mail  : ansolm@qq.com
+ * github  : http://github.com/ansolm
+ * project : Immersive
+ */
+class StatusView(
     private val activity: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = 0,
     private val isFromImmersive: Boolean
 ) : View(activity, attrs, defStyleAttr) {
+
     constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0)
             : this(context, attrs, defStyleAttr, false)
 
@@ -25,24 +31,15 @@ class NavigationView @JvmOverloads constructor(
             : this(context, null, 0, false)
 
     override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
-        val width: Int
-        val height: Int
-        activity as Activity
-        val angle = activity.immersiveState().angle
-        if (angle == Angle.Angle0 || angle == Angle.Angle180) {
-            width = MeasureSpec.getSize(widthMeasureSpec)
-            height = currentPhoneRom.navigationBarHeight(context)
-        } else {
-            height = MeasureSpec.getSize(heightMeasureSpec)
-            width = currentPhoneRom.navigationBarHeight(context)
-        }
+        val width = MeasureSpec.getSize(widthMeasureSpec)
+        val height = currentPhoneRom.statusBarHeight(context)
         setMeasuredDimension(width, height)
     }
 
-
     companion object {
-        const val BUNDLE_SUPER = "NAVIGATION_VIEW_BUNDLE_SUPER"
-        const val BUNDLE_VISIBILITY = "NAVIGATION_VIEW_VISIBILITY"
+        const val BUNDLE_SUPER = "STATUS_VIEW_BUNDLE_SUPER"
+        const val BUNDLE_VISIBILITY = "STATUS_VIEW_VISIBILITY"
+
     }
 
     override fun onSaveInstanceState(): Parcelable? {
@@ -59,6 +56,6 @@ class NavigationView @JvmOverloads constructor(
         visibility = if (state.getBoolean(BUNDLE_VISIBILITY)) VISIBLE else GONE
         super.onRestoreInstanceState(state.getParcelable(BUNDLE_SUPER))
         if (activity is Activity) activity.notifyLayoutParam()
-    }
 
+    }
 }

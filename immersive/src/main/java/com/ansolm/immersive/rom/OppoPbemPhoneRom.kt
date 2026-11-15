@@ -1,15 +1,15 @@
-package com.iwdael.immersive.rom
+package com.ansolm.immersive.rom
 
 import android.app.Activity
 import android.os.Build
 import android.provider.Settings
 import androidx.annotation.RequiresApi
-import com.iwdael.immersive.Immersive.defaultPhoneRom
-import com.iwdael.immersive.PhoneRom
+import com.ansolm.immersive.Immersive.defaultPhoneRom
+import com.ansolm.immersive.PhoneRom
 
 /**
- * author : iwdael
- * e-mail : iwdael@outlook.com
+ * author : ansolm
+ * e-mail : ansolm@outlook.com
  * time   : 2019/8/5
  * desc   : oppo
  * version: 1.0

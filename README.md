@@ -1,14 +1,14 @@
 # Immersive
 ![](https://img.shields.io/badge/platform-android-orange.svg)
 ![](https://img.shields.io/badge/language-java-yellow.svg)
-![](https://jitpack.io/v/com.iwdael/immersive.svg)
+![](https://jitpack.io/v/com.ansolm/immersive.svg)
 ![](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![](https://img.shields.io/badge/license-apache--2.0-green.svg)
 ![](https://img.shields.io/badge/api-19+-green.svg)
 
 一行代码实现沉浸式，适配android4.4到8.0+，沉浸式前所未有的简单。
 </br></br>
-![Image Text](https://github.com/iwdael/immersive/blob/master/immersive.gif)
+![Image Text](https://github.com/ansolm/immersive/blob/master/immersive.gif)
 ## 代码示例
 
 使用以下方法代替Activity.setContentView()，即可实现沉浸式。
@@ -121,7 +121,7 @@ adb shell settings list secure
 ```Java
 	dependencies {
                 ...
-	        implementation 'com.iwdael:immersive:$version'
+	        implementation 'com.ansolm:immersive:$version'
 	}
 ```
 
@@ -129,4 +129,4 @@ adb shell settings list secure
 ## 感谢浏览
 如果你有任何疑问，请加入QQ群，我将竭诚为你解答。欢迎Star和Fork本仓库，当然也欢迎你关注我。
 <br>
-![Image Text](https://github.com/iwdael/CarouselBanner/blob/master/qq_group.png)
+![Image Text](https://github.com/ansolm/CarouselBanner/blob/master/qq_group.png)

@@ -1,4 +1,4 @@
-package com.iwdael.immersive.example
+package com.ansolm.immersive.example
 
 import android.content.Intent
 import android.graphics.Color
@@ -9,7 +9,7 @@ import android.widget.Button
 import android.widget.SeekBar
 import android.widget.SeekBar.OnSeekBarChangeListener
 import androidx.appcompat.app.AppCompatActivity
-import com.iwdael.immersive.*
+import com.ansolm.immersive.*
 
 class MainActivity : AppCompatActivity() {
     private var red = 1

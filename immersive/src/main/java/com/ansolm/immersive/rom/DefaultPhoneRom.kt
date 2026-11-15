@@ -1,15 +1,15 @@
-package com.iwdael.immersive.rom
+package com.ansolm.immersive.rom
 
 import android.app.Activity
 import android.net.Uri
 import android.os.Build
 import android.util.DisplayMetrics
 import androidx.annotation.RequiresApi
-import com.iwdael.immersive.PhoneRom
+import com.ansolm.immersive.PhoneRom
 
 /**
- * author : Iwdael(iwdael)
- * e-mail : iwdael@outlook.com
+ * author : Ansolm(ansolm)
+ * e-mail : ansolm@outlook.com
  * time   : 2019/8/5
  * desc   : other
  * version: 1.0

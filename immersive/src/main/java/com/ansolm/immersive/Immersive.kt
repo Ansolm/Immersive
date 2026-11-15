@@ -1,4 +1,4 @@
-package com.iwdael.immersive
+package com.ansolm.immersive
 
 import android.graphics.Color
 import android.os.Build
@@ -6,26 +6,26 @@ import android.view.View
 import androidx.annotation.ColorInt
 import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AppCompatActivity
-import com.iwdael.immersive.State.Companion.immersiveState
-import com.iwdael.immersive.State.Companion.stateInit
-import com.iwdael.immersive.ext.attachView
-import com.iwdael.immersive.ext.compatible19
-import com.iwdael.immersive.ext.compatible21
-import com.iwdael.immersive.ext.contentLayoutParam
-import com.iwdael.immersive.ext.listenForScreenRotation
-import com.iwdael.immersive.ext.systemUiFlag
-import com.iwdael.immersive.rom.BlackSharkPhoneRom
-import com.iwdael.immersive.rom.DefaultPhoneRom
-import com.iwdael.immersive.rom.GooglePhoneRom
-import com.iwdael.immersive.rom.HuaweiPhoneRom
-import com.iwdael.immersive.rom.NokiaPhoneRom
-import com.iwdael.immersive.rom.OnePlusPhoneRom
-import com.iwdael.immersive.rom.OppoPbemPhoneRom
-import com.iwdael.immersive.rom.OppoPhoneRom
-import com.iwdael.immersive.rom.SamsungPhoneRom
-import com.iwdael.immersive.rom.SmartisanPhoneRom
-import com.iwdael.immersive.rom.VivoPhoneRom
-import com.iwdael.immersive.rom.XiaoMiPhoneRom
+import com.ansolm.immersive.State.Companion.immersiveState
+import com.ansolm.immersive.State.Companion.stateInit
+import com.ansolm.immersive.ext.attachView
+import com.ansolm.immersive.ext.compatible19
+import com.ansolm.immersive.ext.compatible21
+import com.ansolm.immersive.ext.contentLayoutParam
+import com.ansolm.immersive.ext.listenForScreenRotation
+import com.ansolm.immersive.ext.systemUiFlag
+import com.ansolm.immersive.rom.BlackSharkPhoneRom
+import com.ansolm.immersive.rom.DefaultPhoneRom
+import com.ansolm.immersive.rom.GooglePhoneRom
+import com.ansolm.immersive.rom.HuaweiPhoneRom
+import com.ansolm.immersive.rom.NokiaPhoneRom
+import com.ansolm.immersive.rom.OnePlusPhoneRom
+import com.ansolm.immersive.rom.OppoPbemPhoneRom
+import com.ansolm.immersive.rom.OppoPhoneRom
+import com.ansolm.immersive.rom.SamsungPhoneRom
+import com.ansolm.immersive.rom.SmartisanPhoneRom
+import com.ansolm.immersive.rom.VivoPhoneRom
+import com.ansolm.immersive.rom.XiaoMiPhoneRom
 
 /**
  * @author 段泽全

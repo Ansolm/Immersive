@@ -1,4 +1,4 @@
-package com.iwdael.immersive.ext
+package com.ansolm.immersive.ext
 
 import android.app.Activity
 import android.content.Context.DISPLAY_SERVICE
@@ -14,15 +14,15 @@ import android.view.View
 import android.view.Window
 import android.view.WindowManager
 import androidx.fragment.app.FragmentActivity
-import com.iwdael.immersive.Angle
-import com.iwdael.immersive.BarState
-import com.iwdael.immersive.NavigationView
-import com.iwdael.immersive.R
-import com.iwdael.immersive.State.Companion.angle
-import com.iwdael.immersive.State.Companion.immersiveState
-import com.iwdael.immersive.State.Companion.immersiveStateMap
-import com.iwdael.immersive.StatusView
-import com.iwdael.immersive.currentPhoneRom
+import com.ansolm.immersive.Angle
+import com.ansolm.immersive.BarState
+import com.ansolm.immersive.NavigationView
+import com.ansolm.immersive.R
+import com.ansolm.immersive.State.Companion.angle
+import com.ansolm.immersive.State.Companion.immersiveState
+import com.ansolm.immersive.State.Companion.immersiveStateMap
+import com.ansolm.immersive.StatusView
+import com.ansolm.immersive.currentPhoneRom
 
 /**
  * @author 段泽全

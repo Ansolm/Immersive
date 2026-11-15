@@ -1,12 +1,12 @@
-package com.iwdael.immersive.ext
+package com.ansolm.immersive.ext
 
 import android.content.Context
 import android.view.Gravity
 import android.widget.FrameLayout
-import com.iwdael.immersive.Angle
-import com.iwdael.immersive.BarState
-import com.iwdael.immersive.State
-import com.iwdael.immersive.currentPhoneRom
+import com.ansolm.immersive.Angle
+import com.ansolm.immersive.BarState
+import com.ansolm.immersive.State
+import com.ansolm.immersive.currentPhoneRom
 
 /**
  * @author 段泽全
